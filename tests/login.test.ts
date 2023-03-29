@@ -8,4 +8,5 @@ const page = await context.newPage();
 
 await page.goto("https://ecommerce-playground.lambdatest.io/");
 console.log("browser launched");
+console.log("prac");
 })
