@@ -19,6 +19,7 @@ await page.waitForTimeout(50);
 // await page.fill("input[name='password']","ramarajesh@123")
 await page.locator("input[value='Login']").click();
 // await page.waitForTimeout(10000);
+
 const newcontext = await browser.newContext()
 const page1 = await newcontext.newPage();
 await page1.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/account");
